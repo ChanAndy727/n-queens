@@ -156,8 +156,8 @@
         for (var i = 0; i < rows.length; i++) {
           if (rows[i][initIndex] === 1) {
             counter++;
-            initIndex++;
           }
+          initIndex++;
           if (counter > 1) {
             return true;
           }
@@ -168,8 +168,9 @@
         for (var i = initIndex; i < rows.length; i++) {
           if (rows[i][startIndex] === 1) {
             counter++;
-            startIndex++;
+
           }
+          startIndex++;
           if (counter > 1) {
             return true;
           }
